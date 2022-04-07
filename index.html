@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS for Local  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .navbar{
+        margin-bottom:0;
+      }
+
+    </style>
+
+    <!-- Bootstrap CSS for CDN  -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+
+    <title>Bootstart Cheatsheet</title>
+  </head>
+
+
+  <body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1> Welcome To My Website</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+        <a href="#" class="btn btn-primary">Read More</a>
+
+      </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- TYPOGRAPHY -->
+    <div class="container">
+        <h1 class="page-header"> Hello, World! <small>Secondary Text</small></h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+        <p><mark> nisi ut aliquip ex ea </mark>commodo consequat. Duis aute irure dolor
+          in reprehenderit <del> in voluptate velit </del> esse cillum dolore eu fugiat
+          nulla pariatur. <u> Excepteur sint </u> occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <!-- TXT ALIGNMENT & TRANSFORMATION & FLOATS-->
+        <P class="text-left text-uppercase"> Lorem ipsum dolor sit amet </p>
+        <P class="text-right text-lowercase"> Lorem ipsum dolor sit amet,
+           consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+        <P class="text-center text-capitalize"> Lorem ipsum dolor sit amet </p>
+        <P class="text-justify"> Lorem ipsum dolor sit amet </p>
+        <P class="text-nowrap"> Lorem ipsum dolor sit amet </p>
+
+        <P class="pull-left"> Lorem ipsum dolor sit amet,
+           consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+
+        <P class="pull-right"> Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit,
+        </p>
+        <div class="pull-center"> Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit,
+        </div>
+        <div class="pull-left text-uppercase">Float left </div>
+        <div class="pull-right"> Float right </div>
+        <div class="clearfix"> </div>
+        <hr>
+
+        <!-- Block Quote -->
+        <blockquote class="blockquote">
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+          <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+        </blockquote>
+
+        <blockquote class="blockquote-reverse">
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+          <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+        </blockquote>
+
+        <hr>
+
+        <!-- LISTS -->
+        <ul class="list-unstyled">
+            <li> List Item 1 </li>
+            <li> List Item 2 </li>
+            <li> List Item 3 </li>
+        </ul>
+
+        <ul class="list-inline">
+            <li> List Item 1 </li>
+            <li> List Item 2 </li>
+            <li> List Item 3 </li>
+        </ul>
+
+        <!-- CODE -->
+        <code> &lt;h1&gt; Heading text &lt;h1&gt; </code>
+
+        Chnage directory with <kbd>cd</kbd>
+        <br>
+        To edit settings, press <kbd><kbd>ctrl</kbd> <kbd>+</kbd> <kbd>,</kbd></kbd>
+        <hr>
+
+        <!-- CONTEXTUAL COLORS & BACKGROUNDS -->
+        <p class="text-primary"> Hello World</p>
+        <p class="text-success"> Hello World</p>
+        <p class="text-info"> Hello World</p>
+        <p class="text-warning"> Hello World</p>
+        <p class="text-danger"> Hello World</p>
+        <p class="text-muted"> Hello World</p>
+
+        <p class="bg-primary"> Hello World</p>
+        <p class="bg-success"> Hello World</p>
+        <p class="bg-info"> Hello World</p>
+        <p class="bg-warning"> Hello World</p>
+        <p class="bg-danger"> Hello World</p>
+        <p class="bg-muted"> Hello World</p>
+
+    </div>
+    <hr>
+    <div class="container">
+    <!-- BUTTON -->
+        <button class="btn btn-default" name="button">Button</button>
+        <a href="#" class="btn btn-defalut" role="button">Link</a>
+        <input type="submit" class="btn btn-primary" value="Submit">
+
+    <!-- CONTEXTUAL BUTTONS SIZES-->
+        <button class="btn btn-default">Defalut</button>
+
+        <button class="btn btn-primary">Primary</button>
+
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+
+        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-Link">link</button>
+        <br>
+        <button class="btn btn-default btn-lg">Defalut</button>
+        <button class="btn btn-default">Defalut</button>
+        <button class="btn btn-default btn-sm">Defalut</button>
+        <button class="btn btn-default btn-xs">Defalut</button>
+        <button class="btn btn-default btn-xs" disabled="disabled">Defalut</button>
+    </div>
+    <hr>
+    <!-- FORMS -->
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="text" class="form-control" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" placeholder="Enter add message"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <select class="form-control">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label>Upload File</label>
+            <input type="file">
+            <p class="help-block">only png and jpeg allowed</p>
+
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> check Me out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    <br>
+<!-- INLINE FORM -->
+    <div class="container">
+      <form class="form-inline">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="text" class="form-control" placeholder="Enter name">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> check Me out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Login</button>
+      </form>
+    </div>
+    <hr>
+
+    <!-- TABLES -->
+    <div class="container">
+      <table class="table table-striped table-bordered table-hover table-condensed">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+        <tr class="success">
+          <td>Pavan</td>
+          <td>Kumar</td>
+          <td>27</td>
+        </tr>
+        <tr class="warning">
+          <td>Pavan</td>
+          <td>Kumar</td>
+          <td>27</td>
+        </tr>
+        <tr class="danger">
+          <td>Pavan</td>
+          <td>Kumar</td>
+          <td>27</td>
+        </tr>
+      </table>
+
+    </div>
+    <hr>
+
+    <!-- LIST GROUP -->
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Item 1</li>
+        <li class="list-group-item list-group-item-danger">Item 2</li>
+        <li class="list-group-item disabled">Item 3</li>
+      </ul>
+
+    </div>
+
+    <div class="container">
+      <ul class="list-group">
+        <a href="#" class="list-group-item active">Item 1</a>
+        <a href="#" class="list-group-item list-group-item-warning">Item 2</a>
+        <a href="#" class="list-group-item disabled">Item 3</a>
+
+      </ul>
+
+    </div>
+
+    <!-- PANELS & WELLS -->
+    <div class="container">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel Tilte</h3>
+        </div>
+        <div class="panel-body">
+          Panel Content
+        </div>
+        <div class="panel-footer">
+          Panel Footer
+        </div>
+
+      </div>
+
+      <div class="well"> Hello World</div>
+      <div class="well well-lg"> Hello World</div>
+      <div class="well well-xs"> Hello World</div>
+
+      <!-- Alerts -->
+      <div class="alert alert-success" role="alert"> A success alert </div>
+      <div class="alert alert-info" role="alert"> An Info alert </div>
+      <div class="alert alert-warning" role="alert"> A Warning alert </div>
+
+      <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+        you can close this alert </div>
+
+        <!-- PROGRESS BAR -->
+      <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
+          50%
+      </div>
+
+      <hr>
+
+      <!-- LABELS AND BADGES -->
+      <span class="label label-default">Default</span>
+      <h1> Hello <span class="label label-primary"> Primary </span><h1>
+      <span class="label label-success">Success</span>
+      <span class="label label-info">Info</span>
+      <span class="label label-warning">Warning</span>
+      <span class="label label-danger">Danger</span>
+
+      <a href="#">Inbox <span class="badge">333</span></a>
+      <button type="button" class="btn btn-primary">
+        Message <span class="badge"> 3 </span>
+
+      </button>
+    </div>
+
+    <!-- IMAGES -->
+    <div class="container">
+      <img class="thumbnail" src="data:image/png;base64,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" alt="Not uploaded">
+
+      <img class="img-rounded" src="data:image/png;base64,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" alt="Not uploaded">
+
+      <br><hr>
+
+      <img class="img-circle" src="data:image/jpeg;base64,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" alt="Not uploaded">
+
+    </div>
+
+    <!-- GRIDS -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-8 col-xs-8"
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4"
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-3"
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        </div>
+        <div class="col-md-3"
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-3"
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div style="height:400px"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (Necessary for Bootstrap's Javascript Plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper Local-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper CDN-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
